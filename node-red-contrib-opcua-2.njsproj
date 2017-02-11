@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <SchemaVersion>2.0</SchemaVersion>
+        <ProjectGuid>{e8372eeb-2c34-4d30-8c88-b7532f77e462}</ProjectGuid>
+        <ProjectHome />
+        <ProjectView>ShowAllFiles</ProjectView>
+        <StartupFile>opcua.conf.js</StartupFile>
+        <WorkingDirectory>.</WorkingDirectory>
+        <OutputPath>.</OutputPath>
+        <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+        <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+        <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+    <ItemGroup>
+        <Content Include="package.json" />
+        <Content Include="Readme.md" />
+        <Compile Include="opcua.conf.js" />
+        <Content Include="examples\Browser_contrib_ui_flow.json" />
+        <Content Include="examples\CODESYS_EXAMPLE.json" />
+        <Content Include="examples\ExampleFlow.json" />
+        <Content Include="examples\IGSS_OPCUA.json" />
+        <Content Include="examples\OPCUA-TEST.json" />
+        <Content Include="examples\OPCUAServer_Flow.json" />
+        <Content Include="examples\OPCUA_AE_TEST.json" />
+        <Content Include="examples\ProsysOpcUaFlow.json" />
+        <Content Include="examples\TestNode.json" />
+        <Content Include="examples\TEST_OPCUA.json" />
+        <Content Include="images\Example.png" />
+        <Content Include="images\nodeopcua64.png" />
+        <Content Include="images\opcuanode.png" />
+        <Content Include="images\opcuanodeLogo64.png" />
+        <Content Include="images\PROSYS-OPC-UA-EXAMPLE.png" />
+        <Content Include="images\PROSYS-OPC-UA-EXAMPLE2.png" />
+        <Content Include="images\uiBrowseExample.png" />
+        <Content Include="opcua\101-opcuaitem.html" />
+        <Content Include="opcua\102-opcuaclient.html" />
+        <Content Include="opcua\103-opcuabrowser.html" />
+        <Content Include="opcua\104-opcuaserver.html" />
+        <Content Include="opcua\105-opcuaendpoint.html" />
+        <Content Include="opcua\106-opcuaevent.html" />
+        <Compile Include="opcua\101-opcuaitem.js" />
+        <Compile Include="opcua\102-opcuaclient.js" />
+        <Compile Include="opcua\103-opcuabrowser.js" />
+        <Compile Include="opcua\104-opcuaserver.js" />
+        <Compile Include="opcua\105-opcuaendpoint.js" />
+        <Compile Include="opcua\106-opcuaevent.js" />
+        <Compile Include="opcua\opcua-basics.js" />
+        <Compile Include="test\opcuaServerSpec.js" />
+        <Content Include="opcua\icons\opcuanode.png" />
+        <Content Include="opcua\icons\opcuanodeLogo.png" />
+        <Content Include="opcua\public\vendor\opc-foundation\binary\OPC.ISA95.Types.bsd.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\binary\Opc.Ua.Adi.Types.bsd.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\binary\Opc.Ua.Di.Types.bsd.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\binary\Opc.Ua.Gds.Types.bsd.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\binary\Opc.Ua.Types.bsd.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\OPC.ISA95.NodeSet2.Nov52013.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.ISA95.NodeSet2.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.Ua.Adi.NodeSet2.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.Ua.Adi.Types.bsd.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.Ua.Di.NodeSet2.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.Ua.Di.Types.bsd.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.Ua.Gds.NodeSet.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.Ua.Gds.NodeSet2.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.Ua.Gds.Types.bsd.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.Ua.NodeSet-2.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.Ua.NodeSet-3.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.Ua.NodeSet.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.Ua.NodeSet2.Part10.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.Ua.NodeSet2.Part11.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.Ua.NodeSet2.Part12.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.Ua.NodeSet2.Part13.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.Ua.NodeSet2.Part3.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.Ua.NodeSet2.Part4.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.Ua.NodeSet2.Part5.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.Ua.NodeSet2.Part8.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.Ua.NodeSet2.Part9.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.Ua.NodeSet2.Part999.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.Ua.NodeSet2.xml" />
+        <Content Include="opcua\public\vendor\opc-foundation\xml\Opc.Ua.PredefinedNodes.xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="examples" />
+        <Folder Include="images" />
+        <Folder Include="opcua" />
+        <Folder Include="opcua\icons" />
+        <Folder Include="opcua\public" />
+        <Folder Include="opcua\public\vendor" />
+        <Folder Include="opcua\public\vendor\opc-foundation" />
+        <Folder Include="opcua\public\vendor\opc-foundation\binary" />
+        <Folder Include="opcua\public\vendor\opc-foundation\csv" />
+        <Folder Include="opcua\public\vendor\opc-foundation\schema" />
+        <Folder Include="opcua\public\vendor\opc-foundation\xml" />
+        <Folder Include="test" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->
+    <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+    <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+    <ProjectExtensions>
+        <VisualStudio>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+            <WebProjectProperties>
+              <UseIIS>False</UseIIS>
+              <AutoAssignPort>True</AutoAssignPort>
+              <DevelopmentServerPort>0</DevelopmentServerPort>
+              <DevelopmentServerVPath>/</DevelopmentServerVPath>
+              <IISUrl>http://localhost:48022/</IISUrl>
+              <NTLMAuthentication>False</NTLMAuthentication>
+              <UseCustomServer>True</UseCustomServer>
+              <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+              <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+            </WebProjectProperties>
+          </FlavorProperties>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+            <WebProjectProperties>
+              <StartPageUrl>
+              </StartPageUrl>
+              <StartAction>CurrentPage</StartAction>
+              <AspNetDebugging>True</AspNetDebugging>
+              <SilverlightDebugging>False</SilverlightDebugging>
+              <NativeDebugging>False</NativeDebugging>
+              <SQLDebugging>False</SQLDebugging>
+              <ExternalProgram>
+              </ExternalProgram>
+              <StartExternalURL>
+              </StartExternalURL>
+              <StartCmdLineArguments>
+              </StartCmdLineArguments>
+              <StartWorkingDirectory>
+              </StartWorkingDirectory>
+              <EnableENC>False</EnableENC>
+              <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+            </WebProjectProperties>
+          </FlavorProperties>
+        </VisualStudio>
+    </ProjectExtensions>
+</Project>

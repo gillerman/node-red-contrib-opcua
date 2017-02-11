@@ -47,6 +47,7 @@ Search for OPC UA on: http://flows.nodered.org/
 
 * since 2015 [Mika Karaila][2]
 * since 2016 [Klaus Landsdorf][3]
+* since 2016 [John Gillerman][4]
 
 Testing
 ------
@@ -101,3 +102,4 @@ TBD List
 [1]:http://nodered.org
 [2]:https://github.com/mikakaraila
 [3]:https://github.com/biancode
+[4]:https://github.com/gillerman

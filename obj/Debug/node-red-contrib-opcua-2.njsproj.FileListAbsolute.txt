@@ -1,0 +1,2 @@
+C:\Users\John\Documents\Visual Studio 2015\Projects\node-red-contrib-opcua-2\obj\Debug\node-red-contrib-opcua-2.njsprojResolveAssemblyReference.cache
+C:\Users\John\Documents\Visual Studio 2015\Projects\node-red-contrib-opcua-2\bin\Microsoft.NodejsTools.WebRole.dll
